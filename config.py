@@ -1,0 +1,9 @@
+MODEL_ID = "timbrooks/instruct-pix2pix"
+DATASET_NAME = "elaine1wan/MotionEdit-Train"
+NUM_TRAIN = 200
+NUM_TEST = 5
+RESOLUTION = 256
+EPOCHS = 3
+LR = 1e-4
+GRAD_ACCUM_STEPS = 4
+OUTPUT_DIR = "./motionedit_lora"
